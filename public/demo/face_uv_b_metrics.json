@@ -1,0 +1,186 @@
+{
+  "schema_version": "lv05.face_uv.v1",
+  "source_video": "lavish-mall-b.mp4",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24.0,
+    "duration_seconds": 10.04,
+    "duration_ms": 10042,
+    "total_frames": 241
+  },
+  "bbox_format": "pixel_xywh_in_source_video",
+  "time_format": "video_time_ms from the source video timeline",
+  "models": {
+    "face_detection_yunet_2023mar.onnx": {
+      "role": "detection",
+      "bytes": 232589,
+      "sha256": "8F2383E4DD3CFBB4553EA8718107FC0423210DC964F9F4280604804ED2552FA4",
+      "source": "https://huggingface.co/opencv/opencv_zoo/resolve/main/models/face_detection_yunet/face_detection_yunet_2023mar.onnx"
+    },
+    "face_recognition_sface_2021dec.onnx": {
+      "role": "identity",
+      "bytes": 38696353,
+      "sha256": "0BA9FBFA01B5270C96627C4EF784DA859931E02F04419C829E83484087C34E79",
+      "source": "https://huggingface.co/opencv/opencv_zoo/resolve/main/models/face_recognition_sface/face_recognition_sface_2021dec.onnx"
+    }
+  },
+  "pipeline": {
+    "detection": "OpenCV YuNet 2023mar",
+    "identity": "OpenCV SFace 2021dec (128-d cosine embeddings)",
+    "association": "per-frame greedy matching with local temporal/spatial gating and cross-time cosine re-identification; one identity per face per frame",
+    "deduplication": "anonymous identities are created only when no existing identity matches; a confirmed identity is counted once at its confirmation time and never incremented again",
+    "confirmation_rule": ">= 4 samples and >= 0.6s stable presence and face >= 44.0px"
+  },
+  "parameters": {
+    "sample_rate_fps": 12.0,
+    "detection_threshold": 0.88,
+    "min_face_px": 44.0,
+    "recognition_cosine_threshold": 0.45,
+    "local_similarity": 0.3,
+    "local_max_gap_seconds": 1.0,
+    "local_max_distance_ratio": 1.2,
+    "min_hits": 4,
+    "min_duration_seconds": 0.6
+  },
+  "counts": {
+    "candidate_identities": 5,
+    "confirmed_recognizable_face_uv": 4,
+    "excluded_low_support_tracklets": 1,
+    "confirmed_identity_events": 4,
+    "max_detected_faces_in_one_frame": 2
+  },
+  "metric_definition": "Recognizable Face UV = number of anonymous face identities with repeated stable observations in this clip. It is NOT all people in frame, NOT store entrance UV, NOT unique customers (UC), and NOT cross-store re-identification.",
+  "quality_control": {
+    "sample_times_sec": [
+      1,
+      3,
+      5,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      24
+    ],
+    "detections_with_face": 60,
+    "total_samples": 121,
+    "single_frame_tracklets_excluded": 1,
+    "pairwise_confirmed_similarity_over_0.30": [
+      {
+        "a": "ANON-002",
+        "b": "ANON-005",
+        "cosine_similarity": 0.607
+      },
+      {
+        "a": "ANON-002",
+        "b": "ANON-003",
+        "cosine_similarity": 0.305
+      },
+      {
+        "a": "ANON-001",
+        "b": "ANON-002",
+        "cosine_similarity": 0.303
+      }
+    ]
+  },
+  "identities": [
+    {
+      "anonymous_person_id": "ANON-001",
+      "first_ms": 2583,
+      "last_ms": 4083,
+      "observed_samples": 19,
+      "max_face_px": 64.8,
+      "avg_detection_confidence": 0.915,
+      "avg_matching_confidence": 0.615,
+      "confirmed": true,
+      "confirmed_at_ms": 2833
+    },
+    {
+      "anonymous_person_id": "ANON-002",
+      "first_ms": 3167,
+      "last_ms": 5083,
+      "observed_samples": 20,
+      "max_face_px": 84.1,
+      "avg_detection_confidence": 0.903,
+      "avg_matching_confidence": 0.659,
+      "confirmed": true,
+      "confirmed_at_ms": 3417
+    },
+    {
+      "anonymous_person_id": "ANON-003",
+      "first_ms": 5250,
+      "last_ms": 6583,
+      "observed_samples": 14,
+      "max_face_px": 66.1,
+      "avg_detection_confidence": 0.9,
+      "avg_matching_confidence": 0.566,
+      "confirmed": true,
+      "confirmed_at_ms": 5750
+    },
+    {
+      "anonymous_person_id": "ANON-004",
+      "first_ms": 6833,
+      "last_ms": 7083,
+      "observed_samples": 3,
+      "max_face_px": 66.7,
+      "avg_detection_confidence": 0.887,
+      "avg_matching_confidence": 0.594,
+      "confirmed": false,
+      "confirmed_at_ms": null
+    },
+    {
+      "anonymous_person_id": "ANON-005",
+      "first_ms": 7333,
+      "last_ms": 8667,
+      "observed_samples": 16,
+      "max_face_px": 52.3,
+      "avg_detection_confidence": 0.888,
+      "avg_matching_confidence": 0.585,
+      "confirmed": true,
+      "confirmed_at_ms": 7583
+    }
+  ],
+  "events": [
+    {
+      "video_time_ms": 2833,
+      "anonymous_person_id": "ANON-001",
+      "evidence": "repeated YuNet detection + SFace appearance match",
+      "hits_at_confirmation": 4,
+      "avg_detection_confidence": 0.915,
+      "max_face_px": 65
+    },
+    {
+      "video_time_ms": 3417,
+      "anonymous_person_id": "ANON-002",
+      "evidence": "repeated YuNet detection + SFace appearance match",
+      "hits_at_confirmation": 4,
+      "avg_detection_confidence": 0.903,
+      "max_face_px": 84
+    },
+    {
+      "video_time_ms": 5750,
+      "anonymous_person_id": "ANON-003",
+      "evidence": "repeated YuNet detection + SFace appearance match",
+      "hits_at_confirmation": 4,
+      "avg_detection_confidence": 0.9,
+      "max_face_px": 66
+    },
+    {
+      "video_time_ms": 7583,
+      "anonymous_person_id": "ANON-005",
+      "evidence": "repeated YuNet detection + SFace appearance match",
+      "hits_at_confirmation": 4,
+      "avg_detection_confidence": 0.888,
+      "max_face_px": 52
+    }
+  ],
+  "limitations": [
+    "Only front-visible / sufficiently large faces are detectable; turned-away, distant or occluded people are missed.",
+    "One person can be split into two anonymous IDs if appearance changes strongly; low-support tracklets are excluded from UV.",
+    "No face images, embeddings or real identities are exported; the JSON contains anonymous IDs, boxes and aggregate statistics only.",
+    "The footage is an unspecified shopping mall clip, not a Lavish store; results are analysis replay, not live monitoring."
+  ],
+  "privacy": "Only anonymous IDs, face boxes, timestamps and aggregate statistics are written. No biometric templates, crops or personal data are persisted."
+}

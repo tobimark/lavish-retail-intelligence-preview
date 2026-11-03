@@ -1,0 +1,29 @@
+# Dependencies / build output
+node_modules/
+dist/
+.npm-cache/
+.tools/
+.vercel/
+qa-output/
+
+# Local-only artifacts
+*.local
+*.log
+*.tsbuildinfo
+
+# Large offline analysis inputs and work artifacts.
+# Not needed to build or run the static SPA, and too heavy for this repo
+# (evidence 44 MB, extended 101 MB, tasks 135 MB, model weights 37 MB).
+# Keep them locally / in a separate archive repo; deploy only needs src/ + public/.
+/evidence/
+/extended/
+/tasks/
+/scripts/models/
+/design/screenshots/
+
+# Local deploy scratch
+/deploy/tmp/
+
+# OS junk
+.DS_Store
+Thumbs.db

@@ -1,0 +1,15 @@
+import { chromium } from 'playwright';
+import { mkdir, writeFile } from 'node:fs/promises';
+await mkdir('design/screenshots', { recursive: true });
+const browser = await chromium.launch({ headless: true });
+const page = await browser.newPage({ viewport: { width: 1440, height: 900 }, deviceScaleFactor: 1 });
+const errors = []; page.on('pageerror', e => errors.push(e.message));
+await page.goto('http://127.0.0.1:5173/live');
+await page.getByRole('heading', { name: 'Live Vision.' }).waitFor();
+await page.evaluate(() => document.fonts.ready);
+await page.getByRole('slider', { name: 'Replay position' }).fill('24000');
+await page.waitForTimeout(1000);
+await page.screenshot({ path: 'design/screenshots/iteration-1440x900.png', fullPage: true });
+console.log(JSON.stringify({ errors, dimensions: await page.evaluate(() => ({ inner: [innerWidth, innerHeight], document: [document.documentElement.scrollWidth, document.documentElement.scrollHeight], camera: document.querySelector('.camera-aperture').getBoundingClientRect().toJSON(), rail: document.querySelector('.event-rail').getBoundingClientRect().toJSON() })) }, null, 2));
+await writeFile('design/screenshots/initial-errors.json', JSON.stringify(errors));
+await browser.close();

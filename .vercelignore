@@ -1,0 +1,24 @@
+# Kept out of the Vercel upload. None of these are needed to build or run the
+# static SPA; the runtime only needs public/ (clips + model JSON) and src/.
+#
+# NOTE: patterns are root-anchored on purpose. Without the leading slash,
+# gitignore semantics match the name at ANY depth and `design/` would also
+# exclude `src/design/` (which holds the Tailwind entry imported by main.tsx),
+# breaking the Linux build on Vercel.
+/node_modules/
+/dist/
+/qa-output/
+/deploy/
+/.tools/
+/.npm-cache/
+
+# Offline analysis inputs / evidence / working notes (model weights are ~37 MB)
+/scripts/models/
+/evidence/
+/extended/
+/tasks/
+/design/
+/docs/
+
+*.log
+*.tsbuildinfo

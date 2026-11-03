@@ -1,0 +1,1993 @@
+{
+  "video_time_ms": 10000,
+  "duration_ms": 10042,
+  "frames": [
+    {
+      "video_time_ms": 0,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 83,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 167,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 250,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 333,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 417,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 500,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 583,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 667,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 750,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 833,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 917,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 1000,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 1083,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 1167,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 1250,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 1333,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 1417,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 1500,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 1583,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 1667,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 1750,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 1833,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 1917,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 2000,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 2083,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 2167,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 2250,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 2333,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 2417,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 2500,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 2583,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-001",
+          "track_index": 1,
+          "bbox": [
+            455.2,
+            393.4,
+            45.0,
+            56.9
+          ],
+          "detection_confidence": 0.926,
+          "matching_confidence": null,
+          "face_quality": 0.409,
+          "is_confirmed": true,
+          "confirmed_at_ms": 2833
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 2667,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-001",
+          "track_index": 1,
+          "bbox": [
+            448.3,
+            396.4,
+            45.5,
+            57.5
+          ],
+          "detection_confidence": 0.916,
+          "matching_confidence": 0.736,
+          "face_quality": 0.414,
+          "is_confirmed": true,
+          "confirmed_at_ms": 2833
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 2750,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-001",
+          "track_index": 1,
+          "bbox": [
+            433.4,
+            399.2,
+            45.4,
+            59.9
+          ],
+          "detection_confidence": 0.913,
+          "matching_confidence": 0.697,
+          "face_quality": 0.413,
+          "is_confirmed": true,
+          "confirmed_at_ms": 2833
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 0,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 2833,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-001",
+          "track_index": 1,
+          "bbox": [
+            426.8,
+            401.2,
+            47.8,
+            62.9
+          ],
+          "detection_confidence": 0.923,
+          "matching_confidence": 0.792,
+          "face_quality": 0.434,
+          "is_confirmed": true,
+          "confirmed_at_ms": 2833
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 1,
+      "new_identity_event": true
+    },
+    {
+      "video_time_ms": 2917,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-001",
+          "track_index": 1,
+          "bbox": [
+            414.3,
+            403.3,
+            48.0,
+            60.9
+          ],
+          "detection_confidence": 0.926,
+          "matching_confidence": 0.654,
+          "face_quality": 0.437,
+          "is_confirmed": true,
+          "confirmed_at_ms": 2833
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 1,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 3000,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-001",
+          "track_index": 1,
+          "bbox": [
+            405.5,
+            400.3,
+            49.9,
+            64.3
+          ],
+          "detection_confidence": 0.919,
+          "matching_confidence": 0.65,
+          "face_quality": 0.453,
+          "is_confirmed": true,
+          "confirmed_at_ms": 2833
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 1,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 3083,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-001",
+          "track_index": 1,
+          "bbox": [
+            385.8,
+            398.0,
+            52.6,
+            65.5
+          ],
+          "detection_confidence": 0.922,
+          "matching_confidence": 0.467,
+          "face_quality": 0.478,
+          "is_confirmed": true,
+          "confirmed_at_ms": 2833
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 1,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 3167,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-001",
+          "track_index": 1,
+          "bbox": [
+            374.7,
+            395.7,
+            54.1,
+            71.9
+          ],
+          "detection_confidence": 0.924,
+          "matching_confidence": 0.561,
+          "face_quality": 0.492,
+          "is_confirmed": true,
+          "confirmed_at_ms": 2833
+        },
+        {
+          "anonymous_person_id": "ANON-002",
+          "track_index": 2,
+          "bbox": [
+            613.7,
+            358.2,
+            44.6,
+            57.5
+          ],
+          "detection_confidence": 0.9,
+          "matching_confidence": null,
+          "face_quality": 0.405,
+          "is_confirmed": true,
+          "confirmed_at_ms": 3417
+        }
+      ],
+      "detected_faces_now": 2,
+      "confirmed_uv_so_far": 1,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 3250,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-001",
+          "track_index": 1,
+          "bbox": [
+            354.5,
+            397.4,
+            56.3,
+            76.3
+          ],
+          "detection_confidence": 0.927,
+          "matching_confidence": 0.574,
+          "face_quality": 0.511,
+          "is_confirmed": true,
+          "confirmed_at_ms": 2833
+        },
+        {
+          "anonymous_person_id": "ANON-002",
+          "track_index": 2,
+          "bbox": [
+            619.7,
+            358.3,
+            45.1,
+            60.0
+          ],
+          "detection_confidence": 0.893,
+          "matching_confidence": 0.793,
+          "face_quality": 0.41,
+          "is_confirmed": true,
+          "confirmed_at_ms": 3417
+        }
+      ],
+      "detected_faces_now": 2,
+      "confirmed_uv_so_far": 1,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 3333,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-001",
+          "track_index": 1,
+          "bbox": [
+            340.3,
+            400.1,
+            55.5,
+            79.8
+          ],
+          "detection_confidence": 0.919,
+          "matching_confidence": 0.633,
+          "face_quality": 0.505,
+          "is_confirmed": true,
+          "confirmed_at_ms": 2833
+        },
+        {
+          "anonymous_person_id": "ANON-002",
+          "track_index": 2,
+          "bbox": [
+            621.8,
+            354.6,
+            47.1,
+            62.7
+          ],
+          "detection_confidence": 0.907,
+          "matching_confidence": 0.774,
+          "face_quality": 0.428,
+          "is_confirmed": true,
+          "confirmed_at_ms": 3417
+        }
+      ],
+      "detected_faces_now": 2,
+      "confirmed_uv_so_far": 1,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 3417,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-001",
+          "track_index": 1,
+          "bbox": [
+            315.7,
+            407.6,
+            54.4,
+            74.5
+          ],
+          "detection_confidence": 0.908,
+          "matching_confidence": 0.531,
+          "face_quality": 0.495,
+          "is_confirmed": true,
+          "confirmed_at_ms": 2833
+        },
+        {
+          "anonymous_person_id": "ANON-002",
+          "track_index": 2,
+          "bbox": [
+            624.8,
+            352.4,
+            48.4,
+            63.7
+          ],
+          "detection_confidence": 0.901,
+          "matching_confidence": 0.74,
+          "face_quality": 0.44,
+          "is_confirmed": true,
+          "confirmed_at_ms": 3417
+        }
+      ],
+      "detected_faces_now": 2,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": true
+    },
+    {
+      "video_time_ms": 3500,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-001",
+          "track_index": 1,
+          "bbox": [
+            297.9,
+            408.2,
+            55.2,
+            81.9
+          ],
+          "detection_confidence": 0.908,
+          "matching_confidence": 0.573,
+          "face_quality": 0.501,
+          "is_confirmed": true,
+          "confirmed_at_ms": 2833
+        },
+        {
+          "anonymous_person_id": "ANON-002",
+          "track_index": 2,
+          "bbox": [
+            625.7,
+            350.1,
+            49.4,
+            65.3
+          ],
+          "detection_confidence": 0.905,
+          "matching_confidence": 0.81,
+          "face_quality": 0.449,
+          "is_confirmed": true,
+          "confirmed_at_ms": 3417
+        }
+      ],
+      "detected_faces_now": 2,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 3583,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-001",
+          "track_index": 1,
+          "bbox": [
+            262.5,
+            407.2,
+            60.4,
+            80.1
+          ],
+          "detection_confidence": 0.912,
+          "matching_confidence": 0.585,
+          "face_quality": 0.55,
+          "is_confirmed": true,
+          "confirmed_at_ms": 2833
+        },
+        {
+          "anonymous_person_id": "ANON-002",
+          "track_index": 2,
+          "bbox": [
+            621.8,
+            348.4,
+            48.8,
+            65.2
+          ],
+          "detection_confidence": 0.897,
+          "matching_confidence": 0.748,
+          "face_quality": 0.444,
+          "is_confirmed": true,
+          "confirmed_at_ms": 3417
+        }
+      ],
+      "detected_faces_now": 2,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 3667,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-001",
+          "track_index": 1,
+          "bbox": [
+            243.7,
+            404.5,
+            57.5,
+            79.7
+          ],
+          "detection_confidence": 0.914,
+          "matching_confidence": 0.601,
+          "face_quality": 0.523,
+          "is_confirmed": true,
+          "confirmed_at_ms": 2833
+        },
+        {
+          "anonymous_person_id": "ANON-002",
+          "track_index": 2,
+          "bbox": [
+            614.9,
+            349.7,
+            53.8,
+            69.8
+          ],
+          "detection_confidence": 0.902,
+          "matching_confidence": 0.635,
+          "face_quality": 0.489,
+          "is_confirmed": true,
+          "confirmed_at_ms": 3417
+        }
+      ],
+      "detected_faces_now": 2,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 3750,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-001",
+          "track_index": 1,
+          "bbox": [
+            214.7,
+            403.7,
+            60.7,
+            84.4
+          ],
+          "detection_confidence": 0.914,
+          "matching_confidence": 0.576,
+          "face_quality": 0.552,
+          "is_confirmed": true,
+          "confirmed_at_ms": 2833
+        },
+        {
+          "anonymous_person_id": "ANON-002",
+          "track_index": 2,
+          "bbox": [
+            601.5,
+            351.9,
+            51.4,
+            68.0
+          ],
+          "detection_confidence": 0.905,
+          "matching_confidence": 0.563,
+          "face_quality": 0.467,
+          "is_confirmed": true,
+          "confirmed_at_ms": 3417
+        }
+      ],
+      "detected_faces_now": 2,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 3833,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-001",
+          "track_index": 1,
+          "bbox": [
+            195.8,
+            403.0,
+            62.2,
+            92.3
+          ],
+          "detection_confidence": 0.917,
+          "matching_confidence": 0.595,
+          "face_quality": 0.565,
+          "is_confirmed": true,
+          "confirmed_at_ms": 2833
+        },
+        {
+          "anonymous_person_id": "ANON-002",
+          "track_index": 2,
+          "bbox": [
+            590.3,
+            353.2,
+            54.8,
+            72.8
+          ],
+          "detection_confidence": 0.895,
+          "matching_confidence": 0.61,
+          "face_quality": 0.498,
+          "is_confirmed": true,
+          "confirmed_at_ms": 3417
+        }
+      ],
+      "detected_faces_now": 2,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 3917,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-001",
+          "track_index": 1,
+          "bbox": [
+            167.0,
+            411.1,
+            64.2,
+            90.0
+          ],
+          "detection_confidence": 0.914,
+          "matching_confidence": 0.653,
+          "face_quality": 0.584,
+          "is_confirmed": true,
+          "confirmed_at_ms": 2833
+        },
+        {
+          "anonymous_person_id": "ANON-002",
+          "track_index": 2,
+          "bbox": [
+            560.6,
+            350.0,
+            63.9,
+            76.2
+          ],
+          "detection_confidence": 0.897,
+          "matching_confidence": 0.546,
+          "face_quality": 0.58,
+          "is_confirmed": true,
+          "confirmed_at_ms": 3417
+        }
+      ],
+      "detected_faces_now": 2,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 4000,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-002",
+          "track_index": 2,
+          "bbox": [
+            551.8,
+            346.4,
+            61.0,
+            78.3
+          ],
+          "detection_confidence": 0.901,
+          "matching_confidence": 0.612,
+          "face_quality": 0.555,
+          "is_confirmed": true,
+          "confirmed_at_ms": 3417
+        },
+        {
+          "anonymous_person_id": "ANON-001",
+          "track_index": 1,
+          "bbox": [
+            147.5,
+            416.5,
+            63.5,
+            90.6
+          ],
+          "detection_confidence": 0.891,
+          "matching_confidence": 0.561,
+          "face_quality": 0.577,
+          "is_confirmed": true,
+          "confirmed_at_ms": 2833
+        }
+      ],
+      "detected_faces_now": 2,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 4083,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-002",
+          "track_index": 2,
+          "bbox": [
+            534.9,
+            341.0,
+            63.7,
+            84.6
+          ],
+          "detection_confidence": 0.913,
+          "matching_confidence": 0.664,
+          "face_quality": 0.579,
+          "is_confirmed": true,
+          "confirmed_at_ms": 3417
+        },
+        {
+          "anonymous_person_id": "ANON-001",
+          "track_index": 1,
+          "bbox": [
+            118.6,
+            423.8,
+            64.8,
+            93.5
+          ],
+          "detection_confidence": 0.884,
+          "matching_confidence": 0.637,
+          "face_quality": 0.589,
+          "is_confirmed": true,
+          "confirmed_at_ms": 2833
+        }
+      ],
+      "detected_faces_now": 2,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 4167,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-002",
+          "track_index": 2,
+          "bbox": [
+            523.0,
+            337.0,
+            64.5,
+            90.9
+          ],
+          "detection_confidence": 0.918,
+          "matching_confidence": 0.659,
+          "face_quality": 0.586,
+          "is_confirmed": true,
+          "confirmed_at_ms": 3417
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 4250,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-002",
+          "track_index": 2,
+          "bbox": [
+            503.3,
+            338.4,
+            70.1,
+            91.0
+          ],
+          "detection_confidence": 0.909,
+          "matching_confidence": 0.605,
+          "face_quality": 0.637,
+          "is_confirmed": true,
+          "confirmed_at_ms": 3417
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 4333,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-002",
+          "track_index": 2,
+          "bbox": [
+            488.8,
+            343.4,
+            68.5,
+            90.0
+          ],
+          "detection_confidence": 0.918,
+          "matching_confidence": 0.594,
+          "face_quality": 0.623,
+          "is_confirmed": true,
+          "confirmed_at_ms": 3417
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 4417,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-002",
+          "track_index": 2,
+          "bbox": [
+            470.9,
+            347.1,
+            68.6,
+            95.6
+          ],
+          "detection_confidence": 0.895,
+          "matching_confidence": 0.686,
+          "face_quality": 0.624,
+          "is_confirmed": true,
+          "confirmed_at_ms": 3417
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 4500,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-002",
+          "track_index": 2,
+          "bbox": [
+            455.3,
+            344.1,
+            72.3,
+            102.2
+          ],
+          "detection_confidence": 0.906,
+          "matching_confidence": 0.636,
+          "face_quality": 0.658,
+          "is_confirmed": true,
+          "confirmed_at_ms": 3417
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 4583,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-002",
+          "track_index": 2,
+          "bbox": [
+            421.2,
+            334.6,
+            80.9,
+            107.9
+          ],
+          "detection_confidence": 0.903,
+          "matching_confidence": 0.669,
+          "face_quality": 0.736,
+          "is_confirmed": true,
+          "confirmed_at_ms": 3417
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 4667,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-002",
+          "track_index": 2,
+          "bbox": [
+            402.7,
+            332.9,
+            76.3,
+            108.4
+          ],
+          "detection_confidence": 0.89,
+          "matching_confidence": 0.616,
+          "face_quality": 0.694,
+          "is_confirmed": true,
+          "confirmed_at_ms": 3417
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 4750,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 4833,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 4917,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 5000,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 5083,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-002",
+          "track_index": 2,
+          "bbox": [
+            169.5,
+            343.5,
+            84.1,
+            125.8
+          ],
+          "detection_confidence": 0.907,
+          "matching_confidence": 0.559,
+          "face_quality": 0.765,
+          "is_confirmed": true,
+          "confirmed_at_ms": 3417
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 5167,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 5250,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-003",
+          "track_index": 3,
+          "bbox": [
+            545.9,
+            384.2,
+            44.7,
+            54.3
+          ],
+          "detection_confidence": 0.892,
+          "matching_confidence": null,
+          "face_quality": 0.406,
+          "is_confirmed": true,
+          "confirmed_at_ms": 5750
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 5333,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 5417,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 5500,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 5583,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-003",
+          "track_index": 3,
+          "bbox": [
+            492.1,
+            390.2,
+            49.4,
+            62.4
+          ],
+          "detection_confidence": 0.887,
+          "matching_confidence": 0.623,
+          "face_quality": 0.449,
+          "is_confirmed": true,
+          "confirmed_at_ms": 5750
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 5667,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-003",
+          "track_index": 3,
+          "bbox": [
+            483.5,
+            393.5,
+            50.6,
+            58.2
+          ],
+          "detection_confidence": 0.901,
+          "matching_confidence": 0.734,
+          "face_quality": 0.46,
+          "is_confirmed": true,
+          "confirmed_at_ms": 5750
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 2,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 5750,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-003",
+          "track_index": 3,
+          "bbox": [
+            459.7,
+            386.7,
+            54.6,
+            64.6
+          ],
+          "detection_confidence": 0.891,
+          "matching_confidence": 0.759,
+          "face_quality": 0.497,
+          "is_confirmed": true,
+          "confirmed_at_ms": 5750
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 3,
+      "new_identity_event": true
+    },
+    {
+      "video_time_ms": 5833,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-003",
+          "track_index": 3,
+          "bbox": [
+            450.9,
+            384.6,
+            57.7,
+            66.0
+          ],
+          "detection_confidence": 0.903,
+          "matching_confidence": 0.778,
+          "face_quality": 0.525,
+          "is_confirmed": true,
+          "confirmed_at_ms": 5750
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 3,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 5917,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-003",
+          "track_index": 3,
+          "bbox": [
+            438.4,
+            383.8,
+            54.0,
+            67.8
+          ],
+          "detection_confidence": 0.903,
+          "matching_confidence": 0.641,
+          "face_quality": 0.491,
+          "is_confirmed": true,
+          "confirmed_at_ms": 5750
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 3,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 6000,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-003",
+          "track_index": 3,
+          "bbox": [
+            430.5,
+            388.8,
+            54.5,
+            65.2
+          ],
+          "detection_confidence": 0.9,
+          "matching_confidence": 0.629,
+          "face_quality": 0.496,
+          "is_confirmed": true,
+          "confirmed_at_ms": 5750
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 3,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 6083,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-003",
+          "track_index": 3,
+          "bbox": [
+            410.8,
+            384.2,
+            59.8,
+            76.6
+          ],
+          "detection_confidence": 0.903,
+          "matching_confidence": 0.554,
+          "face_quality": 0.544,
+          "is_confirmed": true,
+          "confirmed_at_ms": 5750
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 3,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 6167,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-003",
+          "track_index": 3,
+          "bbox": [
+            400.5,
+            380.9,
+            63.5,
+            80.5
+          ],
+          "detection_confidence": 0.903,
+          "matching_confidence": 0.392,
+          "face_quality": 0.578,
+          "is_confirmed": true,
+          "confirmed_at_ms": 5750
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 3,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 6250,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-003",
+          "track_index": 3,
+          "bbox": [
+            380.7,
+            373.2,
+            62.2,
+            85.9
+          ],
+          "detection_confidence": 0.892,
+          "matching_confidence": 0.385,
+          "face_quality": 0.565,
+          "is_confirmed": true,
+          "confirmed_at_ms": 5750
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 3,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 6333,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-003",
+          "track_index": 3,
+          "bbox": [
+            368.5,
+            369.2,
+            64.0,
+            87.5
+          ],
+          "detection_confidence": 0.914,
+          "matching_confidence": 0.44,
+          "face_quality": 0.581,
+          "is_confirmed": true,
+          "confirmed_at_ms": 5750
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 3,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 6417,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-003",
+          "track_index": 3,
+          "bbox": [
+            345.7,
+            364.8,
+            65.3,
+            91.1
+          ],
+          "detection_confidence": 0.906,
+          "matching_confidence": 0.405,
+          "face_quality": 0.594,
+          "is_confirmed": true,
+          "confirmed_at_ms": 5750
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 3,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 6500,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-003",
+          "track_index": 3,
+          "bbox": [
+            330.3,
+            361.9,
+            63.2,
+            90.9
+          ],
+          "detection_confidence": 0.91,
+          "matching_confidence": 0.505,
+          "face_quality": 0.574,
+          "is_confirmed": true,
+          "confirmed_at_ms": 5750
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 3,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 6583,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-003",
+          "track_index": 3,
+          "bbox": [
+            300.3,
+            368.0,
+            66.1,
+            91.7
+          ],
+          "detection_confidence": 0.896,
+          "matching_confidence": 0.516,
+          "face_quality": 0.601,
+          "is_confirmed": true,
+          "confirmed_at_ms": 5750
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 3,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 6667,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 3,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 6750,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 3,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 6833,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-004",
+          "track_index": 4,
+          "bbox": [
+            211.8,
+            379.3,
+            59.5,
+            83.3
+          ],
+          "detection_confidence": 0.885,
+          "matching_confidence": null,
+          "face_quality": 0.541,
+          "is_confirmed": false,
+          "confirmed_at_ms": null
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 3,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 6917,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-004",
+          "track_index": 4,
+          "bbox": [
+            171.5,
+            375.6,
+            66.7,
+            93.1
+          ],
+          "detection_confidence": 0.892,
+          "matching_confidence": 0.609,
+          "face_quality": 0.606,
+          "is_confirmed": false,
+          "confirmed_at_ms": null
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 3,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 7000,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 3,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 7083,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-004",
+          "track_index": 4,
+          "bbox": [
+            113.2,
+            373.6,
+            64.1,
+            94.4
+          ],
+          "detection_confidence": 0.882,
+          "matching_confidence": 0.579,
+          "face_quality": 0.582,
+          "is_confirmed": false,
+          "confirmed_at_ms": null
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 3,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 7167,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 3,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 7250,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 3,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 7333,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-005",
+          "track_index": 5,
+          "bbox": [
+            470.7,
+            382.6,
+            47.2,
+            56.5
+          ],
+          "detection_confidence": 0.88,
+          "matching_confidence": null,
+          "face_quality": 0.429,
+          "is_confirmed": true,
+          "confirmed_at_ms": 7583
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 3,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 7417,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-005",
+          "track_index": 5,
+          "bbox": [
+            457.0,
+            378.9,
+            46.5,
+            63.0
+          ],
+          "detection_confidence": 0.886,
+          "matching_confidence": 0.505,
+          "face_quality": 0.423,
+          "is_confirmed": true,
+          "confirmed_at_ms": 7583
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 3,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 7500,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-005",
+          "track_index": 5,
+          "bbox": [
+            450.6,
+            377.8,
+            50.3,
+            64.2
+          ],
+          "detection_confidence": 0.898,
+          "matching_confidence": 0.615,
+          "face_quality": 0.457,
+          "is_confirmed": true,
+          "confirmed_at_ms": 7583
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 3,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 7583,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-005",
+          "track_index": 5,
+          "bbox": [
+            434.3,
+            371.9,
+            50.3,
+            66.7
+          ],
+          "detection_confidence": 0.89,
+          "matching_confidence": 0.604,
+          "face_quality": 0.457,
+          "is_confirmed": true,
+          "confirmed_at_ms": 7583
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": true
+    },
+    {
+      "video_time_ms": 7667,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-005",
+          "track_index": 5,
+          "bbox": [
+            423.8,
+            369.1,
+            48.8,
+            66.0
+          ],
+          "detection_confidence": 0.901,
+          "matching_confidence": 0.67,
+          "face_quality": 0.444,
+          "is_confirmed": true,
+          "confirmed_at_ms": 7583
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 7750,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-005",
+          "track_index": 5,
+          "bbox": [
+            402.1,
+            368.2,
+            50.3,
+            69.5
+          ],
+          "detection_confidence": 0.885,
+          "matching_confidence": 0.638,
+          "face_quality": 0.457,
+          "is_confirmed": true,
+          "confirmed_at_ms": 7583
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 7833,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-005",
+          "track_index": 5,
+          "bbox": [
+            388.9,
+            368.8,
+            48.1,
+            66.5
+          ],
+          "detection_confidence": 0.887,
+          "matching_confidence": 0.693,
+          "face_quality": 0.438,
+          "is_confirmed": true,
+          "confirmed_at_ms": 7583
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 7917,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-005",
+          "track_index": 5,
+          "bbox": [
+            365.4,
+            372.4,
+            47.2,
+            66.1
+          ],
+          "detection_confidence": 0.887,
+          "matching_confidence": 0.632,
+          "face_quality": 0.429,
+          "is_confirmed": true,
+          "confirmed_at_ms": 7583
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 8000,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-005",
+          "track_index": 5,
+          "bbox": [
+            342.9,
+            375.7,
+            49.8,
+            69.6
+          ],
+          "detection_confidence": 0.897,
+          "matching_confidence": 0.593,
+          "face_quality": 0.453,
+          "is_confirmed": true,
+          "confirmed_at_ms": 7583
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 8083,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-005",
+          "track_index": 5,
+          "bbox": [
+            313.3,
+            376.8,
+            44.0,
+            63.7
+          ],
+          "detection_confidence": 0.885,
+          "matching_confidence": 0.615,
+          "face_quality": 0.4,
+          "is_confirmed": true,
+          "confirmed_at_ms": 7583
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 8167,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 8250,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-005",
+          "track_index": 5,
+          "bbox": [
+            267.0,
+            373.1,
+            44.9,
+            64.8
+          ],
+          "detection_confidence": 0.887,
+          "matching_confidence": 0.575,
+          "face_quality": 0.408,
+          "is_confirmed": true,
+          "confirmed_at_ms": 7583
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 8333,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-005",
+          "track_index": 5,
+          "bbox": [
+            252.1,
+            374.2,
+            45.4,
+            62.3
+          ],
+          "detection_confidence": 0.881,
+          "matching_confidence": 0.514,
+          "face_quality": 0.413,
+          "is_confirmed": true,
+          "confirmed_at_ms": 7583
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 8417,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-005",
+          "track_index": 5,
+          "bbox": [
+            225.6,
+            368.9,
+            52.3,
+            71.3
+          ],
+          "detection_confidence": 0.884,
+          "matching_confidence": 0.569,
+          "face_quality": 0.475,
+          "is_confirmed": true,
+          "confirmed_at_ms": 7583
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 8500,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-005",
+          "track_index": 5,
+          "bbox": [
+            210.1,
+            371.9,
+            46.7,
+            69.3
+          ],
+          "detection_confidence": 0.888,
+          "matching_confidence": 0.431,
+          "face_quality": 0.425,
+          "is_confirmed": true,
+          "confirmed_at_ms": 7583
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 8583,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-005",
+          "track_index": 5,
+          "bbox": [
+            185.9,
+            375.8,
+            49.0,
+            71.3
+          ],
+          "detection_confidence": 0.886,
+          "matching_confidence": 0.593,
+          "face_quality": 0.446,
+          "is_confirmed": true,
+          "confirmed_at_ms": 7583
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 8667,
+      "faces": [
+        {
+          "anonymous_person_id": "ANON-005",
+          "track_index": 5,
+          "bbox": [
+            169.7,
+            374.6,
+            48.3,
+            72.7
+          ],
+          "detection_confidence": 0.889,
+          "matching_confidence": 0.535,
+          "face_quality": 0.439,
+          "is_confirmed": true,
+          "confirmed_at_ms": 7583
+        }
+      ],
+      "detected_faces_now": 1,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 8750,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 8833,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 8917,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 9000,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 9083,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 9167,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 9250,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 9333,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 9417,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 9500,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 9583,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 9667,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 9750,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 9833,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 9917,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    },
+    {
+      "video_time_ms": 10000,
+      "faces": [],
+      "detected_faces_now": 0,
+      "confirmed_uv_so_far": 4,
+      "new_identity_event": false
+    }
+  ]
+}

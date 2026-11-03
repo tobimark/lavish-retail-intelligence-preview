@@ -1,0 +1,116 @@
+@import 'tailwindcss' source(none);
+/* Build stability: only application source may generate utilities. */
+@source '../../src';
+
+:root {
+  /* Lavish brand layer (concept values from BRAND_HANDOFF.md, not official VI swatches). */
+  --brand-black: #191917;
+  --brand-gold: #B89A61;
+  --brand-gold-deep: #816333;
+  --brand-gold-wash: #F5EFE3;
+  --good: #207C69;
+  --danger: #A84A40;
+
+  --canvas: #F6F5F2;
+  --paper: #FFFEFC;
+  --surface: #F0EEE9;
+  --obsidian: #191917;
+  --deep: #262725;
+  --elevated: #2A2926;
+  --ink: #252521;
+  --ink-soft: #56564E;
+  --muted: #6B6961;
+  --muted-dark: #B9B4A8;
+  --ivory: #F7F3EB;
+  --brass: #B89A61;
+  --sage: #207C69;
+  --sage-light: #9FD4C4;
+  --clay: #A84A40;
+  --clay-light: #E8B7AE;
+  --danger-strong: #A84A40;
+  --line: #E8E5DF;
+  --line-dark: #34332E;
+
+  /* Semantic text roles (V3.1). Gold is an accent; readable gold text uses gold-deep. */
+  --text-primary: var(--ink);
+  --text-secondary: var(--ink-soft);
+  --text-inverse: var(--ivory);
+  --text-accent: var(--brand-gold-deep);
+  --surface-text: var(--text-primary);
+  --surface-text-muted: var(--text-secondary);
+  --surface-control-border: var(--brand-gold-deep);
+
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-ui: 'DM Sans', sans-serif;
+
+  /* V3.1 type scale */
+  --type-page: 34px;
+  --type-page-line: 1.15;
+  --type-page-weight: 400;
+  --type-section: 24px;
+  --type-section-line: 1.3;
+  --type-section-weight: 500;
+  --type-subsection: 18px;
+  --type-subsection-line: 1.4;
+  --type-subsection-weight: 500;
+  --type-body: 16px;
+  --type-body-line: 1.6;
+  --type-body-weight: 400;
+  --type-control: 15px;
+  --type-control-line: 1.4;
+  --type-control-weight: 500;
+  --type-event: 15px;
+  --type-event-line: 1.5;
+  --type-event-weight: 400;
+  --type-meta: 14px;
+  --type-meta-line: 1.5;
+  --type-meta-weight: 400;
+  --type-label: 12px;
+  --type-label-line: 1.4;
+  --type-label-weight: 500;
+  --type-metric: 32px;
+  --type-metric-line: 1.2;
+  --type-metric-weight: 400;
+  --control-height: 40px;
+  --control-height-primary: 44px;
+  --control-icon-size: 40px;
+  --text-xs: 10px;
+  --text-sm: 12px;
+  --text-base: 13px;
+  --text-lg: 16px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 40px;
+  --space-8: 48px;
+  --radius-tag: 2px;
+  --radius-control: 4px;
+  --radius-panel: 8px;
+  --border-width: 1px;
+  --shadow-float: 0 12px 44px #1919171a;
+  --shadow-drawer: -12px 0 64px #19191729;
+  --motion-fast: 160ms;
+  --motion-panel: 240ms;
+  --ease: cubic-bezier(.2,.7,.2,1);
+  --z-overlay: 10;
+  --z-popover: 30;
+  --z-modal: 50;
+  --header-height: 72px;
+  --nav-width: 76px;
+  --nav-expanded: 224px;
+  --rail-width: 280px;
+  --gutter: 32px;
+  --chart-entry: var(--brand-gold);
+  --chart-exit: var(--ink-soft);
+  font-family: var(--font-ui);
+  color: var(--ink);
+  background: var(--canvas);
+  font-synthesis: none;
+  font-optical-sizing: auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-variant-numeric: tabular-nums;
+}
