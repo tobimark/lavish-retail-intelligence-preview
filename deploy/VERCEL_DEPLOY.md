@@ -1,6 +1,6 @@
 # SILLAGE → Vercel 部署运行手册
 
-> 本文件是本次部署的可执行记录。结论：**本地构建与运行验证全部 PASS，仓库已就绪，只差 GitHub 推送 + Vercel 导入两步。**
+> 本文件是本次部署的可执行记录。结论：**本地构建与运行验证全部 PASS，代码已推送到 GitHub，只差 Vercel 导入一步。**
 
 ## 一、当前状态（已验证）
 
@@ -11,7 +11,8 @@
 | HTTP 资源（preview 4173） | **24/24 PASS**，响应 sha256 与磁盘一致 | 同上 §5 |
 | 视频 Range | 两个 mp4 `Range: bytes=0-1023` → **206** + `content-range` 正确 | 同上 §5.1 |
 | 浏览器渲染（Playwright 1440×900） | **PASS**：首屏 8 个关键文案全部渲染，`0 console error / 0 pageerror / 0 失败请求` | `deploy/tmp/playwright-results.json`、`deploy/tmp/preview-home-1440x900.png` |
-| 本地 git 仓库 | `main` 分支，1 个提交，61 个文件 / 13.14 MB | `git log --oneline` |
+| 本地 git 仓库 | `main` 分支，62 个文件 / 13.14 MB | `git log --oneline` |
+| GitHub 推送 | **✅ 已完成** → <https://github.com/tobimark/lavish-retail-intelligence-preview>（private，本地与 `origin/main` 一致） | `git ls-remote --heads origin` |
 
 ## 二、本次为部署做的关键修复
 
@@ -23,7 +24,11 @@
 | 4 | `package.json` | 新增 `"engines": { "node": "22.x" }` | 锁定 Vercel 构建 Node 版本（与本地验证环境一致） |
 | 5 | `.gitignore` | 排除 `node_modules/`、`dist/`、`evidence/`、`extended/`、`tasks/`、`scripts/models/`、`*.log`、`*.tsbuildinfo` | 280 MB 离线取证/模型权重不进 GitHub；`*.log` 防止 `face_uv_b_run.log` 泄露本地路径 |
 
-## 三、第 1 步：在 GitHub 创建空仓库
+## 三、第 1 步：在 GitHub 创建空仓库 ✅ 已完成
+
+> 实际仓库：<https://github.com/tobimark/lavish-retail-intelligence-preview>（private）。远程自带的 `Initial commit`（README 存根）已通过 rebase 保留，本地项目 README 覆盖之。
+
+原始步骤（留档）：
 
 1. 打开 <https://github.com/new>
 2. **Repository name**：`lavish-retail-intelligence-preview`
@@ -31,15 +36,15 @@
 4. **不要**勾选 `Add a README file`、`.gitignore`、`license`（保持空仓库）
 5. 创建后把仓库 URL 发给部署执行方
 
-## 四、第 2 步：推送代码
+## 四、第 2 步：推送代码 ✅ 已完成
 
 ```powershell
 cd D:\workspace\SILLAGE
-git remote add origin https://github.com/<你的用户名>/lavish-retail-intelligence-preview.git
-git push -u origin main
+git remote add origin https://github.com/tobimark/lavish-retail-intelligence-preview.git
+git push -u origin main   # a252915..68823a8 main -> main
 ```
 
-> 首次推送会弹出 Git Credential Manager 的 GitHub 登录窗口，授权一次即可。
+> 本机网络需经系统代理访问 github.com，仓库内已写入 `http.proxy=http://127.0.0.1:7897`（仅本仓库本地配置，不进入提交）。若在其他机器克隆后无法推送，同样需要配置代理或用能直连的网络。
 
 ## 五、第 3 步：Vercel 导入（GitHub 集成）
 
